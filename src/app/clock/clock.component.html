@@ -1,0 +1,18 @@
+
+<div class="center outerDiv vertical-center">
+  <div class="container-fluid clockdesign bgNightClock" >
+    {{hour}}&nbsp;:&nbsp;{{minute}}&nbsp;{{ticker}}&nbsp;{{second}}
+  </div>
+  <div class="fontdesign bgDayDate">
+    {{monthDay}} {{month}} {{year}}
+  </div>
+  <div class="weekdaysclass" >
+    <div class="conditionWeekDay" [ngStyle]="{'color': weedDays[1] === tempDay?  '#10F040' : ' grey'}" >{{weedDays[1]}}</div>
+    <div class="conditionWeekDay" [ngStyle]="{'color': weedDays[2] === tempDay?  '#10F040' : ' grey'}" >{{weedDays[2]}}</div>
+    <div class="conditionWeekDay" [ngStyle]="{'color': weedDays[3] === tempDay?  '#10F040' : ' grey'}">{{weedDays[3]}}</div>
+    <div class="conditionWeekDay" [ngStyle]="{'color': weedDays[4] === tempDay?  '#10F040' : ' grey'}" >{{weedDays[4]}}</div>
+    <div class="conditionWeekDay" [ngStyle]="{'color': weedDays[5] === tempDay?  '#10F040' : ' grey'}">{{weedDays[5]}}</div>
+    <div class="conditionWeekDay" [ngStyle]="{'color': weedDays[6] === tempDay?  '#10F040' : ' grey'}"  >{{weedDays[6]}}</div>
+    <div class="conditionWeekDay" [ngStyle]="{'color': weedDays[0] === tempDay?  '#10F040' : ' grey'}" >{{weedDays[0]}}</div>
+  </div>
+</div>

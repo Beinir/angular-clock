@@ -1,0 +1,66 @@
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 150%);
+}
+
+.outerDiv {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 10px;
+  width: 340px;
+  height: 190px;
+  background-color: #17202A;
+  text-align: center;
+}
+
+.clock_center {
+  text-align: center;
+  background-color: #17202A;
+}
+
+.fontdesign{
+  horiz-align: center;
+  font-size: 25px;
+  width: 100%;
+  padding-top: 8%;
+  font-weight: lighter;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.weekdaysclass{
+  horiz-align: center;
+  margin-top: 4%;
+  padding-right: 4%;
+  width: 85%;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+}
+
+.clockdesign{
+  margin-top: 8%;
+  width: 60%;
+  font-size: 25px;
+  font-weight: lighter;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #10F040;
+}
+
+.bgDayDate{
+  color: #10F040;
+  opacity: 0.8;
+}
+
+.conditionWeekDay {
+  opacity: 0.8;
+  padding-left: 8px;
+}
+
